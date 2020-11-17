@@ -14,21 +14,20 @@ import namtp.util.MathUtil;
 public class NewClass {
 
     public static void main(String[] args) {
-            //2. test hàm bằng mắt
-            System.out.println("5!: " + MathUtil.getFactorial(5));
-            // t hi vọng m ra 120 khi t gọi m
-            System.out.println("0!: " + MathUtil.getFactorial(0));
-            //                  e:1, a:1 -> okie
-            
-            //e: ném về ngoại lệ IllegalArgumentException
-            System.out.println("-5!: " + MathUtil.getFactorial(-5));
-            //                  e:1, a:1 -> okie
+        //2. test hàm bằng mắt
+        System.out.println("5!: " + MathUtil.getFactorial(5));
+        // t hi vọng m ra 120 khi t gọi m
+        System.out.println("0!: " + MathUtil.getFactorial(0));
+        //                  e:1, a:1 -> okie
+        //e: ném về ngoại lệ IllegalArgumentException
+        System.out.println("-5!: " + MathUtil.getFactorial(-5));
+        //                  e:1, a:1 -> okie
     }
 }
 //code viet ra thi DEV pahi test truoc da , co vai hinh thuc test code khac nhau
 //1TDD,test Driven Development
-        //viet danf khung cuả hàm getFactorial(int n)
-        // sau đó dungwh hà test
+//viet danf khung cuả hàm getFactorial(int n)
+// sau đó dungwh hà test
 //2. sout(kem hàm data) để coi kết quả ra sao, có đúng như mình kì vọng
 //nó phải trả về như thế hay không xem kết quả bằng mắt
 //3. JOptionPane cảu bên javades phải popup lên màn hình
