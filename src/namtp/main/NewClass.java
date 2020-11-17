@@ -33,3 +33,4 @@ public class NewClass {
 //3. JOptionPane cảu bên javades phải popup lên màn hình
 //4.viết  1 trang web gọi hàm xử lý , hao sức
 //ta làm cách 1 và 2
+//
