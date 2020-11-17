@@ -39,7 +39,7 @@ public class MathUtilityTest {
         assertEquals(24, MathUtil.getFactorial(4));
         assertEquals(6, MathUtil.getFactorial(3));
         assertEquals(1, MathUtil.getFactorial(0));
-        assertEquals(2, MathUtil.getFactorial(1));
+        
         
         
     }
